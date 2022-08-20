@@ -1,0 +1,66 @@
+body{
+    background-color: beige;
+}
+.divbox
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.divbox div
+{
+    width: auto;
+    height: auto;
+}
+
+h1{
+    font-size: 0;
+}
+.creditpage
+{
+    font-size: 0;
+}
+.possibleAnswerButtons
+{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 1.6vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.375rem 0.25rem;
+    border-radius: 50%;
+    width: 6.25rem;
+    cursor: pointer;
+}
+.loseButton
+{
+    visibility: hidden;
+}
+.mainMenuButtons
+{
+    visibility: hidden;
+}
+.nextLevelButton
+{
+    visibility: hidden;
+}
+.whatLevel
+{
+    font: 6.25rem;
+}
+.nextStageButton
+{
+    visibility: hidden;
+}
+.stageSelector
+{
+    visibility: hidden;
+}

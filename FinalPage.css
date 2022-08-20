@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(226, 38, 117);
+}
+.divbox
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.divbox div
+{
+    width: auto;
+    height: auto;
+}
+.score
+{
+    font-size: 9.375rem;
+    margin-top: 15%;
+}
+h1{
+    font-size: 0;
+}
+.possibleAnswerButtons
+{
+    visibility: hidden;
+}
+.loseButton
+{
+    visibility: hidden;
+}
+.mainMenuButtons
+{
+    visibility: hidden;
+}
+.nextLevelButton
+{
+    visibility: hidden;
+}
+.whatLevel
+{
+    font: 0px;
+}
+.nextStageButton
+{
+    visibility: hidden;
+}
+.stageSelector
+{
+    visibility: hidden;
+}
+.startButton
+{
+    visibility: hidden;
+}

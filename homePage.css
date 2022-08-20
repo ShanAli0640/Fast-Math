@@ -1,0 +1,64 @@
+body{
+    background-color: lightblue;
+}
+.divbox
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.divbox div
+{
+    width: auto;
+    height: auto;
+}
+.score
+{
+    font-size: 0px;
+}
+h1{
+    font-size: 9.375rem;
+}
+.creditpage
+{
+    font-size: 3.125rem;
+}
+.possibleAnswerButtons
+{
+    visibility: hidden;
+}
+.loseButton
+{
+    visibility: hidden;
+}
+.mainMenuButtons
+{
+    display: block;
+    width: 20%;
+    padding: 0.875rem 1.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+.nextLevelButton
+{
+    visibility: hidden;
+}
+.whatLevel
+{
+    font: 0px;
+}
+.nextStageButton
+{
+    visibility: hidden;
+}
+.stageSelector
+{
+    visibility: hidden;
+}
+

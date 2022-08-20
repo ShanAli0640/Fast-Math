@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="mainStyles.css" /> 
+    <title>FastMath</title>
+</head>
+<body>
+    <div class="divbox">
+        <h1>Fast Math</h1>
+        <creditPage class="creditpage">By: Shan Ali</creditPage>
+        <whatLevel class="whatLevel" id="whatLevel"></whatLevel>
+        <br><br><br><question class="question" id="question">yo</question>
+        <br><options class="options">
+            <button id="button1" onclick="clicked(1)" class="possibleAnswerButtons"></button>
+            <button id="button2" onclick="clicked(2)" class="possibleAnswerButtons"></button>
+            <button id="button3" onclick="clicked(3)" class="possibleAnswerButtons"></button>
+        </options>
+        <br><rightOrWrong class="rightOrWrong" id="rightOrWrong"></rightOrWrong>
+        <score class="score" id="score"></score>
+        <button onclick="tryAgain()" id="loseButton" class="loseButton">Try Again.</button>
+        <button onclick="nextLevelButton()" id="nextLevelButton" class="nextLevelButton">Next Level.</button>
+        <div class="mainMenuButtons">
+            <button onclick="startGame()" id="startButton" class="startButton">Start</button><br>
+            <button onclick="stageSelect()" id="stageSelectButton" class="stageSelectButton">Stage Select</button></div>
+        <div class="stageSelector">
+            <p>Select desired Stage</p>
+            <button onclick="changeStage(1)" id="stage1" class="stageButton">Stage One.</button>
+            <button onclick="changeStage(2)" id="stage2" class="stageButton">Stage Two.</button>
+            <button onclick="changeStage(3)" id="stage3" class="stageButton">Stage Three.</button>
+            <button onclick="changeStage(4)" id="stage4" class="stageButton">Stage Four.</button>
+            <button onclick="changeStage(5)" id="stage5" class="stageButton">Final Stage.</button></div>
+        </div>
+        <button onclick="nextStageButton()" id="nextStageButton" class="nextStageButton">Next Stage.</button>
+        <script type="text/javascript" src="actualGame.js"></script>
+    </div>
+</body>
+</html> 
